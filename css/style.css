@@ -368,6 +368,7 @@ img.hover-shadow {
   /* CSS para cambiar el color del texto en el menú desplegable */
   .navbar-nav .nav-link {
     color: #000000 !important;
+    font-weight: 600;
   }
 
   /* Cambiar el color del texto en el menú desplegable cuando se hace clic */
