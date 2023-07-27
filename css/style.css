@@ -364,10 +364,18 @@ img.hover-shadow {
   .navbar-light .navbar-toggler {
     border-color: rgba(0, 0, 0, 0) !important;
   }
+
   /* CSS para cambiar el color del texto en el menú desplegable */
   .navbar-nav .nav-link {
-  color: #000000 !important;
+    color: #000000 !important;
   }
+
+  /* Cambiar el color del texto en el menú desplegable cuando se hace clic */
+  .navbar-nav .nav-link:active,
+  .navbar-nav .nav-link:hover {
+  color: #848484!important; /* Cambia el color aquí */
+}
+
 
   /* Estilos para el icono del botón "navbar-toggler" con el nuevo color negro */
   .navbar-light .navbar-toggler-icon {
