@@ -59,7 +59,7 @@ header{
 }
 
 .bg-red{
-    background-color: #BD1622;
+    background-color: #04ecb4;
 }
 
 .bg-gris{
@@ -156,16 +156,16 @@ a{
 }
 
 .text-rojo{
-  color: #BD1622;
+  color: #848484;
 }
 
 .btn-danger{
-  background-color: #BD1622 !important;
+  background-color: #04ecb4 !important;
 }
 /* formulario */
 .form-input{
   border: none !important;
-  border-bottom: 1px solid #BD1622 !important;
+  border-bottom: 1px solid #04ecb4!important;
   border-radius: 0px !important;
   display: block;
   width: 100%;
@@ -181,7 +181,7 @@ a{
 }
 
 .form-control{
-  border: 1px solid #BD1622 !important;
+  border: 1px solid #04ecb4 !important;
 }
 
     /*  */
