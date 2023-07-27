@@ -1,3 +1,12 @@
+// Función para cerrar la barra de navegación cuando se hace clic en un enlace
+$('.navbar-nav a').on('click', function () {
+  // Si el elemento con la clase "navbar-collapse" tiene la clase "show",
+  // se cierra la barra de navegación.
+  if ($('.navbar-collapse').hasClass('show')) {
+    $('.navbar-collapse').collapse('hide');
+  }
+});
+
 // Open the Modal
 function openModal() {
   document.getElementById("myModal").style.display = "block";
