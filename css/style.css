@@ -45,6 +45,25 @@
   font-weight: normal;
   font-style: normal;
 }
+/* Estilos personalizados para el menú desktop */
+.d-md-block .nav {
+  padding: 30px; /* Aumenta el espacio interno (padding) vertical y horizontal de la caja del menú */
+  
+  
+  display: flex; /* Permite que los elementos del menú se distribuyan horizontalmente en una fila */
+  
+}
+
+
+
+.d-md-block .nav-link {
+
+  text-decoration: none; /* Quita la decoración de subrayado de los enlaces */
+  transition: 0.2s; /* Agrega una transición suave de 0.2 segundos en los enlaces */
+  font-size: 14px; 
+}
+
+
 
 
 .row {
@@ -66,7 +85,7 @@ header {
 }
 
 .bg-gris {
-  background-color: #C6C6C5;
+  background-color: #c6c5c5;
 }
 
 iframe {
@@ -417,10 +436,12 @@ img.hover-shadow {
 
 /*// Large devices (desktops, 992px and up)*/
 @media (max-width: 992px) {
-  ...
-}
+  .d-md-block .nav-link {
+    font-size: 12px; /* Tamaño del texto del menú en dispositivos más pequeños (992px y menos) */
+  }
 
+}
 /*// Extra large devices (large desktops, 1200px and up)*/
 @media (max-width: 1200px) {
-  ...
+ 
 }
