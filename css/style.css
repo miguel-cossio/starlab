@@ -64,7 +64,9 @@
 }
 #clientes {
   text-align: center;
-  padding: 20px;
+  padding: 40px;
+  margin: 10vw;
+  margin-top: 1vw;
 }
 
 .titulos {
