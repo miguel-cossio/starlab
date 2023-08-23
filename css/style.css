@@ -60,7 +60,7 @@
 
   text-decoration: none; /* Quita la decoración de subrayado de los enlaces */
   transition: 0.2s; /* Agrega una transición suave de 0.2 segundos en los enlaces */
-  font-size: 14px; 
+  font-size: 17px; 
 }
 #clientes {
   text-align: center;
@@ -132,7 +132,7 @@ header {
 }
 
 .bg-red {
-  background-color: #04ecb4;
+  background-color: #05cc9d;
 }
 
 .bg-gris {
