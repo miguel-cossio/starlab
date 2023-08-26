@@ -21,7 +21,11 @@
         top: 0px;
         right: 0px;
     }
-
+    body h2 {
+        font-size: 0.625rem!important;
+        padding: 0;
+    }
+    
     /* Estilos para el botón "navbar-toggler" */
     /* Estilos para el botón "navbar-toggler" */
     .navbar-light .navbar-toggler {
